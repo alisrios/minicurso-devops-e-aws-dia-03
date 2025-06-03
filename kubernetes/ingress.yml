@@ -1,11 +1,12 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: devops-na-nuvem-ingress
+  name: ingress
   annotations:
-    alb.ingress.kubernetes.io/load-balancer-name: devops-na-nuvem-ingress
+    alb.ingress.kubernetes.io/load-balancer-name: live-ingress
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/subnets: subnet-0e3f37d3a64ccb10f,subnet-0d817013021ecb49d
+    alb.ingress.kubernetes.io/subnets: subnet-048af6b87e3aa5e1b,subnet-0e3389318f230a823
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
 spec:
   ingressClassName: alb
   rules:

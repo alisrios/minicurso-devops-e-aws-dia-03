@@ -15,7 +15,7 @@ spec:
         app: frontend
     spec:
       containers:
-        - name: frontend
-          image: 968225077300.dkr.ecr.us-west-1.amazonaws.com/devops-na-nuvem/production/frontend:v1.0
-          ports:
-            - containerPort: 80
+      - name: frontend
+        image: 968225077300.dkr.ecr.us-west-1.amazonaws.com/minicursodevopsaws/production/frontend:v1.0
+        ports:
+        - containerPort: 80
