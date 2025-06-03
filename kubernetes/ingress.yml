@@ -5,7 +5,7 @@ metadata:
   annotations:
     alb.ingress.kubernetes.io/load-balancer-name: live-ingress
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/subnets: subnet-048af6b87e3aa5e1b,subnet-0e3389318f230a823
+    alb.ingress.kubernetes.io/subnets: subnet-069509106f0205695,subnet-080a7ed1659c4e5fe
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
 spec:
   ingressClassName: alb

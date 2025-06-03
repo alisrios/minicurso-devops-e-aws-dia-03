@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "live-minicurso-devops-aws-remote-backend"
+    bucket         = "live-minicurso-devops-alisson-remote-backend"
     key            = "main-stack/terraform.tfstate"
-    region         = "us-west-1"
+    region         = "us-east-1"
     dynamodb_table = "live-minicurso-devops-aws-remote-backend-locks"
   }
 }

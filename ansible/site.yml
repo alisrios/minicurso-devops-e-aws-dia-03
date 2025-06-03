@@ -5,9 +5,9 @@
   hosts: localhost
   vars:
     CLUSTER_NAME: live-mini-curso-devops-aws-eks-cluster
-    AWS_REGION: us-west-1
-    AWS_ACCOUNT_ID: 968225077300
-    AWS_VPC_ID: vpc-005058937ff126dee
+    AWS_REGION: us-east-1
+    AWS_ACCOUNT_ID: 148761658767
+    AWS_VPC_ID: vpc-031b3f1c4e2b7b756
   tasks:
 
     - name: Download Policy

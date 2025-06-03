@@ -5,8 +5,8 @@ variable "authentication" {
   })
 
   default = {
-    assume_role_arn = "arn:aws:iam::968225077300:role/LiveMiniCursoDevOpsAWSRole"
-    region          = "us-west-1"
+    assume_role_arn = "arn:aws:iam::148761658767:role/TerraformAssumeRole"
+    region          = "us-east-1"
   }
 }
 
@@ -33,7 +33,7 @@ variable "remote_backend" {
 
   default = {
     s3_bucket = {
-      name = "live-minicurso-devops-aws-remote-backend"
+      name = "live-minicurso-devops-alisson-remote-backend"
     }
 
     dynamodb_table = {
