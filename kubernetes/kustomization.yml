@@ -6,8 +6,8 @@ resources:
   - ingress.yml
 
 images:
-  - name: 148761658767.dkr.ecr.us-east-1.amazonaws.com/minicursodevopsaws/production//backend
-    newName: 148761658767.dkr.ecr.us-east-1.amazonaws.com/minicursodevopsaws/production//backend
+  - name: 148761658767.dkr.ecr.us-east-1.amazonaws.com/minicursodevopsaws/production/backend
+    newName: 148761658767.dkr.ecr.us-east-1.amazonaws.com/minicursodevopsaws/production/backend
     newTag: v1.0
 
   - name: 148761658767.dkr.ecr.us-east-1.amazonaws.com/minicursodevopsaws/production/frontend
